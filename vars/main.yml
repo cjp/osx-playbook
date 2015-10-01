@@ -1,10 +1,10 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_sudoers: yes
+configure_sudoers: no
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo: https://github.com/cjp/dotfiles.git
+dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitconfig
@@ -15,68 +15,81 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - ansible
+  - aspell
   - autoconf
-  - bash-completion
-  - boot2docker
-  - docker
-  - gettext
-  - git
-  - go
-  - gpg
-  - iperf
-  - libevent
-  - packer
-  - python
-  - sqlite
-  - mysql
-  - npm
-  - php56
-  - php56-xdebug
-  - ssh-copy-id
-  - cowsay
-  - ios-sim
-  - readline
-  - subversion
-  - kdiff3
-  - openssl
-  - pv
-  - drush
-  - wget
-  - wrk
+  - automake
+  - bitlbee
   - brew-cask
+  - cmake
+  - coreutils
+  - emacs
+  - exiftool
+  - ffmpeg
+  - findutils
+  - fontconfig
+  - freetype
+  - gcc
+  - git
+  - gnupg2
+  - gnutls
+  - go
+  - imagemagick
+  - iperf
+  - jhead
+  - mplayer
+  - mutt
+  - nmap
+  - openssl
+  - p7zip
+  - pandoc
+  - pcre
+  - pdf-tools
+  - pianobar
+  - pkg-config
+  - protobuf
+  - readline
+  - tmux
+  - tokyo-cabinet
+  - unrar
+  - w3m
+  - wget
+  - youtube-dl
+  - zsh
 
 homebrew_taps:
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
-  - google-chrome
-  - dropbox
-  - fing
+  - caffeine
+  - calibre
+  - chirp
+  - citrix-receiver
   - firefox
-  - handbrake
+  - fldigi
+  - flux
+  - font-anonymous-pro
+  - font-inconsolata
+  - google-chrome
+  - iterm2
   - karabiner
-  - limechat
-  - licecap
-  - macvim
+  - key-codes
+  - lastpass-universal
+  - mactex
+  - magicprefs
   - menumeters
-  - nvalt
-  - sequel-pro
+  - nimbus
   - skype
-  - skitch
-  - seil
-  - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
-  - timemachineeditor
-  - tower
-  - transmit
+  - tigervnc-viewer
+  - torbrowser
+  - transmission
   - vagrant
   - vagrant-manager
-  - vlc
   - virtualbox
+  - wireshark
+  - xquartz
+  - yubikey-neo-manager
+  - yubikey-personalization-gui
