@@ -1,4 +1,6 @@
 ---
+the_hostname: urumqi
+
 downloads: ~/.ansible-downloads/
 
 configure_sudoers: no
