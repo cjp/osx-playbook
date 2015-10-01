@@ -1,7 +1,7 @@
 ---
 # Emacs configuration
 - name: Fetch emacs repo
-- git: repo=https://github.com/cjp/emacs24-starter-kit.git
+  git: repo=https://github.com/cjp/emacs24-starter-kit.git
        dest=/Users/cjp/.emacs.d
 
 # Hostname
