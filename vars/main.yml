@@ -15,6 +15,7 @@ dotfiles_files:
   - .osx
   - .vimrc
 
+homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
   - ansible
   - aspell
