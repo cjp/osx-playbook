@@ -8,12 +8,10 @@ configure_sudoers: no
 dotfiles_repo: https://github.com/cjp/dotfiles.git
 dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
-  - .bash_profile
   - .gitconfig
-  - .gitignore
-  - .inputrc
-  - .osx
+  - .vim
   - .vimrc
+  - .zshrc
 
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
