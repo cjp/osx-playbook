@@ -9,9 +9,8 @@
   roles:
     - geerlingguy.homebrew
     - geerlingguy.dotfiles
-    - hnakamur.oh-my-zsh
     
   tasks:
     - include: tasks/ansible-setup.yml
     - include: tasks/preferences.yml
-
+    - include: tasks/oh-my-zsh.yml
