@@ -5,7 +5,7 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: no
 
-zsh_custom_dir: ~/.oh-my-zsh/custom
+zsh_custom_dir: ~/.oh-my-custom
 oh_my_zsh_theme: femtotech
 
 dotfiles_repo: https://github.com/cjp/dotfiles.git
