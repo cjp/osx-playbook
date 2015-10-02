@@ -1,3 +1,2 @@
 geerlingguy.dotfiles
 geerlingguy.homebrew
-hnakamur.oh-my-zsh
