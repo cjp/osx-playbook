@@ -6,17 +6,22 @@
 
 # Hostname
 - name: Set ComputerName
+  become: true
   shell: scutil --set ComputerName {{ the_hostname }}
 
 - name: Set HostName
+  become: true
   shell: scutil --set HostName {{ the_hostname }}
 
 - name: Set LocalHostName
+  become: true
   shell: scutil --set LocalHostName {{ the_hostname }}
 
 - name: Set NetBIOSName
+  become: true
   shell: defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string {{ the_hostname }}
 
 # Other System Preferences
 - name: Don't save documents to the cloud
+  become: true
   shell: defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
